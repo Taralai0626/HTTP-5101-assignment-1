@@ -25,6 +25,6 @@ namespace WebApplication1.Controllers
             return fortnight + " fortnight at $5.50/FN = $" + subtotal + " CAD, "
                 + "HST 13% = $" + Math.Round(tax, 2) + " CAD, "//flort stores 6 to 7 decimal digits. We only need two decimal digit,
                 + "Total = $" + Math.Round(total, 2) + " CAD.";//hence use math.round(X,2)to round the decimal to two digits.
-        }
+        }       //return input number with above fomula appled.
     }
 }

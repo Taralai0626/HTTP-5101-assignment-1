@@ -14,7 +14,12 @@ namespace WebApplication1.Controllers
             return "Hello World!";
         }
         
-    public string Get(int id)
+    /// <summary>
+    /// /input a nuumber and get back a number
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns>return "message" and the same number that was input</returns>
+        public string Get(int id)
         {
             int people =(int)(id);//number of people equal id, so return id directly.
             return "Greetings to " + id + " people!";
